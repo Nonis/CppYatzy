@@ -9,16 +9,9 @@
 
 using namespace std;
 
-
-struct tarningar {
-	   int prickar; // antal prickar pŒ tŠrning
-	   bool spara; // True = tŠrningen kastas inte om
-	};
-
-
-
-
-
+/*
+ * funktionen ger antal spelare
+ */
 int funk_antalspelare(){
 	int x;
 	cout << "Hur mŒnga spelare? ";
