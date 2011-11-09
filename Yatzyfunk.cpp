@@ -1,0 +1,34 @@
+/*
+ * Yatzyfunk.cpp
+ *
+ *  Created on: 9 nov 2011
+ *      Author: christianpettersson
+ */
+//#include "yatzyheader.h"
+#include <iostream>
+
+using namespace std;
+
+
+struct tarningar {
+	   int prickar; // antal prickar på tärning
+	   bool spara; // True = tärningen kastas inte om
+	};
+
+
+
+
+
+int funk_antalspelare(){
+	int x;
+	cout << "Hur många spelare? ";
+	cin >> x;
+	if (x > 5 || x < 1) {
+		system("clear");
+		cout << "Fel antal spelar, välj mellan 2 och 5: ";
+		cin >> x;
+	}
+	system("clear");
+
+	return (x) ;
+};
