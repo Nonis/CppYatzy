@@ -16,18 +16,22 @@ using namespace std;
 int main() {
 
 
-	tarningar tarning[5]; //Skapar 5 tŠrningar med vŠrdet tarning[x].prickar/spara
+
 
 	//Startar spelet och ange hur mŒnga spelare
 
 	system("clear");
 
-	cout << "YATZY!!" << endl;
+	funk_logga();
 
 
 	antal_spelare = funk_antalspelare(); // HŠmtar hur mŒnga spelare som ska spela
+	aktivspelare = 1;
 
-	cout << "Antal spelare Šr: " << antal_spelare;
+
+	cout << "Antal spelare Šr: " << antal_spelare << endl;
+
+	funk_kasta_tarning(omgang,aktivspelare);
 
 
 
