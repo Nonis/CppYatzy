@@ -25,13 +25,16 @@ int main() {
 	funk_logga();
 
 
-	antal_spelare = funk_antalspelare(); // Hämtar hur många spelare som ska spela
+	antal_spelare =2; //funk_antalspelare(); // Hämtar hur många spelare som ska spela
 	aktivspelare = 1;
 
 
-	cout << "Antal spelare är: " << antal_spelare << endl;
 
+	cout << "Antal spelare är: " << antal_spelare << endl;
+	omgang = 15;
 	funk_kasta_tarning(omgang,aktivspelare);
+
+
 
 
 
